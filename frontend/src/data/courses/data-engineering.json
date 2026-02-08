@@ -1,0 +1,159 @@
+{
+    "id": "course_006",
+    "slug": "data-engineering",
+    "title": "Data Engineering",
+    "tagline": "Build robust data pipelines -- Master ETL processes, big data technologies, and cloud solutions for enterprise data management.",
+    "category": "Data Engineering & Cloud",
+    "difficulty": "Intermediate to Advanced",
+    "duration": "10 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 14999,
+      "offline": 19999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_006",
+    "icon": "FaDatabase",
+    "overview": [
+      "This intensive course prepares you for the high-demand field of data engineering. You'll learn to design, build, and maintain data pipelines using Python, SQL, and modern big data technologies.",
+      "The curriculum covers ETL processes, data warehousing, cloud platforms, and real-time data processing. Through hands-on projects, you'll gain experience with industry-standard tools and architectures used by leading tech companies."
+    ],
+    "learningOutcomes": [
+      "Design and implement ETL pipelines using Python and SQL",
+      "Work with relational and NoSQL databases",
+      "Process big data using Apache Spark",
+      "Build data warehouses and implement dimensional modeling",
+      "Deploy data solutions on cloud platforms (AWS/GCP)",
+      "Implement real-time data processing with Kafka",
+      "Monitor and optimize data pipeline performance",
+      "Ensure data quality and implement data governance"
+    ],
+    "curriculum": [
+      {
+        "title": "Foundations & SQL",
+        "duration": "2 Weeks",
+        "lessons": 8,
+        "icon": "Storage",
+        "topics": [
+          "Database fundamentals and normalization",
+          "Advanced SQL queries and optimization",
+          "Stored procedures and functions",
+          "Transaction management"
+        ]
+      },
+      {
+        "title": "Python for Data Engineering",
+        "duration": "2 Weeks",
+        "lessons": 7,
+        "icon": "Code",
+        "topics": [
+          "Python programming for ETL",
+          "Working with APIs and web scraping",
+          "Data processing with Pandas",
+          "Task automation and scheduling"
+        ]
+      },
+      {
+        "title": "Big Data Technologies",
+        "duration": "2 Weeks",
+        "lessons": 6,
+        "icon": "Cloud",
+        "topics": [
+          "Hadoop ecosystem overview",
+          "Apache Spark fundamentals",
+          "Distributed computing concepts",
+          "Spark SQL and DataFrames"
+        ]
+      },
+      {
+        "title": "Data Warehousing",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "Warehouse",
+        "topics": [
+          "Dimensional modeling concepts",
+          "Star and snowflake schemas",
+          "ETL design patterns",
+          "Data warehouse implementation"
+        ]
+      },
+      {
+        "title": "Cloud Data Engineering",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "CloudQueue",
+        "topics": [
+          "Cloud computing fundamentals",
+          "AWS/GCP data services",
+          "Serverless data processing",
+          "Cloud data warehousing"
+        ]
+      },
+      {
+        "title": "Real-time & Advanced Topics",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "Speed",
+        "topics": [
+          "Real-time data processing with Kafka",
+          "Data pipeline orchestration",
+          "Data quality and monitoring",
+          "Capstone project implementation"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Software Developers",
+        "description": "Developers looking to transition into data engineering roles.",
+        "icon": "Code"
+      },
+      {
+        "title": "Database Administrators",
+        "description": "DBAs expanding into big data and cloud technologies.",
+        "icon": "Storage"
+      },
+      {
+        "title": "Data Analysts",
+        "description": "Analysts moving into engineering for better data infrastructure.",
+        "icon": "Analytics"
+      },
+      {
+        "title": "CS Graduates",
+        "description": "Recent graduates aiming for data engineering careers.",
+        "icon": "School"
+      }
+    ],
+    "prerequisites": [
+      "Basic programming knowledge (preferably Python)",
+      "Understanding of databases and SQL",
+      "Familiarity with data concepts",
+      "Computer with 8GB+ RAM"
+    ],
+    "includedFeatures": [
+      "Hands-on data pipeline projects",
+      "Cloud platform access (AWS/GCP)",
+      "Industry-standard tools training",
+      "Certificate of completion",
+      "Placement assistance",
+      "Real-world case studies"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Monthly intensive batches",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 500,
+      "rating": 4.8,
+      "projects": 4,
+      "hours": 150
+    },
+    "meta": {
+      "keywords": ["data engineering", "etl", "big data", "apache spark", "cloud", "aws", "data pipelines"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

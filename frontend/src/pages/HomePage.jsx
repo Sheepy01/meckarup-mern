@@ -6,6 +6,7 @@ import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs';
 import Testimonials from '../components/Testimonials/Testimonials';
 import CTABanner from '../components/CTABanner/CTABanner';
 import CourseCatalog from '../components/CourseCatalog';
+import DetailedServicesPage from '../components/DetailedServicesSection/DetailedServicesPage';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <ServicesSection />
       <CourseCatalog />
       <PopularCourses />
+      <DetailedServicesPage />
       <WhyChooseUs />
       <Testimonials />
       <CTABanner />

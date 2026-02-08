@@ -1,0 +1,159 @@
+{
+    "id": "course_005",
+    "slug": "latex-for-academic-writing",
+    "title": "LaTeX for Academic Writing",
+    "tagline": "Create professional academic documents effortlessly -- Master LaTeX for research papers, theses, and technical publications.",
+    "category": "Academic & Technical",
+    "difficulty": "Beginner to Intermediate",
+    "duration": "4 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 4999,
+      "offline": 7999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_005",
+    "icon": "FaBook",
+    "overview": [
+      "This course transforms your academic and technical writing process using LaTeX. You'll learn to create beautifully formatted documents, including research papers, theses, presentations, and books.",
+      "The course covers everything from basic document structure to advanced customization, including bibliography management with BibTeX, mathematical typesetting, and journal-specific formatting requirements. You'll save countless hours on formatting while producing publication-ready documents."
+    ],
+    "learningOutcomes": [
+      "Create professional documents with proper structure and formatting",
+      "Master mathematical typesetting for equations and symbols",
+      "Manage bibliographies and citations using BibTeX",
+      "Create presentations with Beamer and posters",
+      "Design custom templates and document classes",
+      "Generate tables, figures, and algorithms properly",
+      "Work with multi-file projects and large documents",
+      "Prepare documents for journal submission"
+    ],
+    "curriculum": [
+      {
+        "title": "LaTeX Fundamentals",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Code",
+        "topics": [
+          "Installation and editor setup",
+          "Document structure and classes",
+          "Basic formatting and commands",
+          "Sections, paragraphs, and lists"
+        ]
+      },
+      {
+        "title": "Mathematical Typesetting",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Functions",
+        "topics": [
+          "Inline and display mathematics",
+          "Mathematical symbols and operators",
+          "Equations and equation arrays",
+          "Matrices and complex formulas"
+        ]
+      },
+      {
+        "title": "Figures, Tables & References",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Image",
+        "topics": [
+          "Inserting and positioning figures",
+          "Creating professional tables",
+          "Cross-referencing and labels",
+          "Bibliography management with BibTeX"
+        ]
+      },
+      {
+        "title": "Advanced Formatting",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "FormatPaint",
+        "topics": [
+          "Customizing page layout and headers",
+          "Creating custom commands and environments",
+          "Multi-column layouts",
+          "Floating objects and positioning"
+        ]
+      },
+      {
+        "title": "Presentations & Posters",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Slideshow",
+        "topics": [
+          "Creating presentations with Beamer",
+          "Poster design with beamerposter",
+          "Custom themes and templates",
+          "Animations and overlays"
+        ]
+      },
+      {
+        "title": "Large Projects",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Folder",
+        "topics": [
+          "Managing multi-file projects",
+          "Thesis and book formatting",
+          "Journal-specific requirements",
+          "Troubleshooting and best practices"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Research Scholars",
+        "description": "PhD students and researchers writing theses, papers, and academic documents.",
+        "icon": "School"
+      },
+      {
+        "title": "Academicians",
+        "description": "Professors and lecturers preparing course materials and publications.",
+        "icon": "CastForEducation"
+      },
+      {
+        "title": "Engineers & Scientists",
+        "description": "Technical professionals writing reports, documentation, and technical papers.",
+        "icon": "Engineering"
+      },
+      {
+        "title": "Technical Writers",
+        "description": "Professionals creating technical documentation and manuals.",
+        "icon": "Description"
+      }
+    ],
+    "prerequisites": [
+      "Basic computer skills",
+      "No prior LaTeX experience required",
+      "Familiarity with academic writing is helpful",
+      "Interest in document preparation"
+    ],
+    "includedFeatures": [
+      "Document templates",
+      "Bibliography management tools",
+      "Presentation templates",
+      "Certificate of completion",
+      "Journal formatting guidelines",
+      "Lifetime template access"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Monthly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 600,
+      "rating": 4.9,
+      "projects": 2,
+      "hours": 60
+    },
+    "meta": {
+      "keywords": ["latex", "academic writing", "research papers", "thesis", "technical documentation"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

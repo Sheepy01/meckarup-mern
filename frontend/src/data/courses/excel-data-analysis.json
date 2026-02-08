@@ -1,0 +1,159 @@
+{
+    "id": "course_003",
+    "slug": "excel-for-data-analysis",
+    "title": "Excel for Data Analysis",
+    "tagline": "Unlock Excel's full potential -- From basic spreadsheets to advanced business intelligence and data modeling.",
+    "category": "Business & Analytics",
+    "difficulty": "Beginner to Advanced",
+    "duration": "4 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 5999,
+      "offline": 8999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_003",
+    "icon": "FaLaptopCode",
+    "overview": [
+      "This course transforms you from an Excel beginner to an advanced data analyst. You'll learn to harness Excel's powerful features for data cleaning, analysis, and visualization.",
+      "Through practical exercises and business case studies, you'll master pivot tables, advanced formulas, Power Query, and dashboard creation. The course focuses on real-world applications, preparing you to solve complex business problems efficiently using Excel."
+    ],
+    "learningOutcomes": [
+      "Master advanced Excel formulas and functions (VLOOKUP, INDEX-MATCH, etc.)",
+      "Create dynamic reports using PivotTables and PivotCharts",
+      "Clean and transform data using Power Query",
+      "Build interactive dashboards with slicers and timelines",
+      "Perform what-if analysis with Data Tables and Scenario Manager",
+      "Automate tasks using Macros and VBA basics",
+      "Create compelling data visualizations and charts",
+      "Use Power Pivot for data modeling and DAX formulas"
+    ],
+    "curriculum": [
+      {
+        "title": "Advanced Formulas",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Functions",
+        "topics": [
+          "Logical, lookup, and reference functions",
+          "Array formulas and dynamic arrays",
+          "Text and date functions",
+          "Error handling and formula auditing"
+        ]
+      },
+      {
+        "title": "Data Analysis Tools",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Analytics",
+        "topics": [
+          "PivotTables and PivotCharts",
+          "Advanced filtering and sorting",
+          "Data validation and conditional formatting",
+          "Sparklines and data bars"
+        ]
+      },
+      {
+        "title": "Data Transformation",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Transform",
+        "topics": [
+          "Power Query fundamentals",
+          "Data cleaning and transformation",
+          "Merging and appending queries",
+          "Advanced Power Query techniques"
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "AutoGraph",
+        "topics": [
+          "Advanced chart types and customization",
+          "Dashboard design principles",
+          "Interactive controls (slicers, timelines)",
+          "Conditional formatting for insights"
+        ]
+      },
+      {
+        "title": "Advanced Analysis",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Calculate",
+        "topics": [
+          "What-if analysis tools",
+          "Solver for optimization problems",
+          "Statistical analysis in Excel",
+          "Forecasting and trend analysis"
+        ]
+      },
+      {
+        "title": "Automation & Integration",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Settings",
+        "topics": [
+          "Macro recording and editing",
+          "Introduction to VBA programming",
+          "Power Pivot and data modeling",
+          "Excel integration with other tools"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Business Professionals",
+        "description": "Managers, analysts, and professionals who regularly work with data in Excel.",
+        "icon": "Business"
+      },
+      {
+        "title": "Finance & Accounting",
+        "description": "Accountants, financial analysts needing advanced Excel skills for reporting and analysis.",
+        "icon": "AccountBalance"
+      },
+      {
+        "title": "Marketing Professionals",
+        "description": "Marketing analysts and managers requiring data analysis and visualization skills.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Students & Admin Staff",
+        "description": "Students and administrative staff looking to enhance their Excel proficiency.",
+        "icon": "School"
+      }
+    ],
+    "prerequisites": [
+      "Basic familiarity with Excel",
+      "Experience with simple formulas",
+      "Basic spreadsheet operations knowledge",
+      "Computer with Microsoft Excel installed"
+    ],
+    "includedFeatures": [
+      "Business case studies",
+      "Interactive dashboard templates",
+      "Advanced formula cheat sheets",
+      "Certificate of completion",
+      "Practice datasets",
+      "Lifetime access to materials"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English (Hindi support available)",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Weekly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 2000,
+      "rating": 4.7,
+      "projects": 3,
+      "hours": 60
+    },
+    "meta": {
+      "keywords": ["excel", "data analysis", "business intelligence", "pivot tables", "power query"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

@@ -1,0 +1,159 @@
+{
+  "id": "course_me_001",
+  "slug": "three-d-modelling",
+  "title": "Mechanical Design & Simulation",
+  "tagline": "From Sketch to Simulation — Master 3D modeling, finite element analysis (FEA), and structural mechanics for modern engineering.",
+  "category": "Mechanical Engineering & CAD",
+  "difficulty": "Intermediate",
+  "duration": "8 Weeks",
+  "mode": ["Online", "Offline"],
+  "price": {
+    "online": 8499,
+    "offline": 12999,
+    "currency": "INR"
+  },
+  "instructorId": "instructor_me_001",
+  "icon": "GiMechanicalArm",
+  "overview": [
+    "This course bridges the gap between theoretical mechanics and industrial design. You will master 3D parametric modeling alongside advanced simulation techniques used in aerospace and automotive industries.",
+    "The curriculum focuses on Solid Mechanics, Finite Element Analysis (FEA), and Computational Fluid Dynamics (CFD). You will learn to validate designs against real-world stresses, ensuring safety and performance-critical reliability."
+  ],
+  "learningOutcomes": [
+    "Master parametric 3D modeling and assembly design",
+    "Perform linear and non-linear structural analysis (FEA)",
+    "Apply principles of Statics and Dynamics to digital prototypes",
+    "Execute thermal and fluid flow simulations (CFD)",
+    "Understand GD&T (Geometric Dimensioning and Tolerancing) standards",
+    "Optimize designs for weight and material efficiency",
+    "Generate production-ready technical drawings",
+    "Conduct failure analysis and fatigue testing on components"
+  ],
+  "curriculum": [
+    {
+      "title": "Statics & Solid Mechanics",
+      "duration": "1 Week",
+      "lessons": 5,
+      "icon": "GiWeight",
+      "topics": [
+        "Force systems and equilibrium conditions",
+        "Stress-strain relationships and Hooke's Law",
+        "Shear force and Bending moment diagrams",
+        "Torsion and buckling fundamentals"
+      ]
+    },
+    {
+      "title": "Parametric 3D Modeling",
+      "duration": "2 Weeks",
+      "lessons": 8,
+      "icon": "BiCube",
+      "topics": [
+        "Sketching, constraints, and 2D-to-3D conversion",
+        "Advanced part modeling (Loft, Sweep, Revolve)",
+        "Top-down and bottom-up assembly techniques",
+        "Sheet metal and surface modeling basics"
+      ]
+    },
+    {
+      "title": "Finite Element Analysis (FEA)",
+      "duration": "2 Weeks",
+      "lessons": 7,
+      "icon": "MdGridOn",
+      "topics": [
+        "Introduction to meshing and element types",
+        "Static structural analysis and boundary conditions",
+        "Modal analysis and natural frequencies",
+        "Thermal and fatigue simulation"
+      ]
+    },
+    {
+      "title": "Mechanism & Dynamics",
+      "duration": "1 Week",
+      "lessons": 4,
+      "icon": "GiSettings",
+      "topics": [
+        "Kinematic linkages and joint constraints",
+        "Velocity and acceleration analysis in assemblies",
+        "Dynamic motion simulation and interference checking",
+        "Gyroscopic effects and stabilization"
+      ]
+    },
+    {
+      "title": "Advanced Simulation & CFD",
+      "duration": "1 Week",
+      "lessons": 5,
+      "icon": "MdWaves",
+      "topics": [
+        "Fluid flow fundamentals in digital environments",
+        "Pressure drop and heat transfer optimization",
+        "Non-linear material behavior simulation",
+        "Topology optimization for weight reduction"
+      ]
+    },
+    {
+      "title": "Project & Industrial Standards",
+      "duration": "1 Week",
+      "lessons": 4,
+      "icon": "MdAssignmentTurnedIn",
+      "topics": [
+        "GD&T application in production drawings",
+        "DFM (Design for Manufacturing) principles",
+        "Full machine assembly simulation project",
+        "Exporting for 3D Printing and CNC machining"
+      ]
+    }
+  ],
+  "targetAudience": [
+    {
+      "title": "Mechanical Students",
+      "description": "Undergraduates looking to master industry-standard CAD/CAE tools.",
+      "icon": "School"
+    },
+    {
+      "title": "Product Designers",
+      "description": "Professionals creating consumer goods and industrial machinery.",
+      "icon": "MdBrush"
+    },
+    {
+      "title": "Simulation Engineers",
+      "description": "Analysts focused on FEA, CFD, and structural validation.",
+      "icon": "MdAnalytics"
+    },
+    {
+      "title": "R&D Specialists",
+      "description": "Researchers developing prototypes for aerospace or automotive sectors.",
+      "icon": "MdScience"
+    }
+  ],
+  "prerequisites": [
+    "Basic understanding of Engineering Mathematics",
+    "Familiarity with Engineering Drawing concepts",
+    "A computer with a dedicated GPU (for simulation rendering)",
+    "Interest in structural design and physics"
+  ],
+  "includedFeatures": [
+    "Real-world industrial case studies",
+    "Cloud-based simulation compute credits",
+    "Hands-on FEA/CFD project portfolio",
+    "Professional certification",
+    "Live debugging of complex meshes",
+    "Access to a library of standard components"
+  ],
+  "details": {
+    "certificate": "Yes (Global Accreditation)",
+    "language": "English (Regional support available)",
+    "location": "Online / On-site Laboratory in Patna",
+    "batchStart": "Every 15th of the month",
+    "support": "Expert technical mentoring via Discord & Mail"
+  },
+  "stats": {
+    "studentsTrained": 850,
+    "rating": 4.8,
+    "projects": 4,
+    "hours": 120
+  },
+  "meta": {
+    "keywords": ["mechanical design", "FEA", "CFD", "3D modeling", "solid mechanics", "CAD simulation"],
+    "updatedAt": "2024-02-08",
+    "version": "1.1"
+  }
+}

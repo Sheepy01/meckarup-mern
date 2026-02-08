@@ -1,0 +1,171 @@
+{
+  "id": "course_001",
+  "slug": "python-programming",
+  "title": "Python Programming",
+  "tagline": "Master Python from basics to advanced applications – Build real-world projects and kickstart your programming career",
+  "category": "Programming",
+  "difficulty": "Beginner to Advanced",
+  "duration": "8 Weeks",
+  "mode": ["Online", "Offline"],
+  "price": {
+    "online": 8999,
+    "offline": 12999,
+    "currency": "INR"
+  },
+  "instructorId": "instructor_001",
+  "icon": "FaPython",
+  
+  "overview": [
+    "Our Python Programming course is designed to take you from complete beginner to proficient developer. You'll learn core programming concepts, data structures, and object-oriented programming, then advance to data analysis, web development, and automation.",
+    "Through hands-on projects and industry-relevant assignments, you'll build a portfolio that showcases your skills to potential employers. The course emphasizes practical application, ensuring you can immediately apply your learning to real-world scenarios.",
+    "You'll work on multiple projects that mirror real-world scenarios, building a portfolio that demonstrates your capabilities to potential employers or clients.",
+    "By the end of this course, you'll not only master Python programming but also understand how to apply these skills in various domains including data science, web development, automation, and artificial intelligence."
+  ],
+  
+  "learningOutcomes": [
+    "Master Python syntax, variables, data types, and control structures",
+    "Implement Object-Oriented Programming (OOP) concepts: classes, objects, inheritance",
+    "Work with Python libraries: NumPy for numerical computing, Pandas for data analysis",
+    "Perform file handling operations and exception handling",
+    "Build web applications using Flask framework and RESTful APIs",
+    "Create data visualizations using Matplotlib and Seaborn",
+    "Automate tasks and perform web scraping using BeautifulSoup and Selenium",
+    "Understand database integration with SQLite and MySQL"
+  ],
+  
+  "curriculum": [
+    {
+      "title": "Python Fundamentals",
+      "duration": "2 Weeks",
+      "lessons": 8,
+      "icon": "Code",
+      "topics": [
+        "Introduction to programming concepts",
+        "Variables, data types, and operations",
+        "Control flow and functions",
+        "Strings, lists, tuples, and dictionaries"
+      ]
+    },
+    {
+      "title": "Intermediate Python",
+      "duration": "2 Weeks",
+      "lessons": 7,
+      "icon": "DataArray",
+      "topics": [
+        "Object-Oriented Programming basics",
+        "Classes, objects, and methods",
+        "Error handling and debugging",
+        "File operations and modules"
+      ]
+    },
+    {
+      "title": "Data Analysis with Python",
+      "duration": "2 Weeks",
+      "lessons": 6,
+      "icon": "AutoGraph",
+      "topics": [
+        "NumPy arrays and operations",
+        "Pandas for data manipulation",
+        "Data cleaning and preprocessing",
+        "Data visualization with Matplotlib"
+      ]
+    },
+    {
+      "title": "Web Development",
+      "duration": "1.5 Weeks",
+      "lessons": 5,
+      "icon": "Language",
+      "topics": [
+        "Flask framework fundamentals",
+        "Building web applications",
+        "REST API development",
+        "Database integration basics"
+      ]
+    },
+    {
+      "title": "Database Integration",
+      "duration": "1.5 Weeks",
+      "lessons": 5,
+      "icon": "Storage",
+      "topics": [
+        "Introduction to databases (SQLite, MySQL)",
+        "SQL basics and CRUD operations",
+        "Python Database Connectivity",
+        "ORM with SQLAlchemy"
+      ]
+    },
+    {
+      "title": "Advanced Topics & Capstone",
+      "duration": "1 Week",
+      "lessons": 4,
+      "icon": "Cloud",
+      "topics": [
+        "Web scraping techniques",
+        "Task automation",
+        "Introduction to machine learning",
+        "Capstone project implementation"
+      ]
+    }
+  ],
+  
+  "targetAudience": [
+    {
+      "title": "Students & Graduates",
+      "description": "B.Tech, MCA, BCA, B.Sc. students looking to build programming skills for placements and higher studies.",
+      "icon": "School"
+    },
+    {
+      "title": "Working Professionals",
+      "description": "Professionals seeking to transition into tech roles, enhance automation skills, or move into data analysis.",
+      "icon": "Work"
+    },
+    {
+      "title": "Researchers & Analysts",
+      "description": "Academic researchers and data analysts who need Python for data processing, visualization, and analysis.",
+      "icon": "Science"
+    },
+    {
+      "title": "Career Changers & Entrepreneurs",
+      "description": "Individuals looking to switch careers to tech or entrepreneurs needing to build MVP applications.",
+      "icon": "Engineering"
+    }
+  ],
+  
+  "prerequisites": [
+    "Basic computer literacy",
+    "No prior programming experience required",
+    "Laptop/computer with minimum 4GB RAM",
+    "Internet connection for online classes",
+    "Willingness to learn and practice regularly"
+  ],
+  
+  "includedFeatures": [
+    "Lifetime course access",
+    "5+ real-world projects",
+    "Certificate of completion",
+    "24/7 doubt support",
+    "Placement assistance",
+    "Interview preparation"
+  ],
+  
+  "details": {
+    "certificate": "Yes (Industry recognized)",
+    "language": "English (Hindi support available)",
+    "location": "Patna, Bihar for offline classes",
+    "batchStart": "15th of every month",
+    "support": "24/7 via chat and email"
+  },
+  
+  "stats": {
+    "studentsTrained": 1250,
+    "rating": 4.9,
+    "projects": 5,
+    "hours": 120
+  },
+  
+  "meta": {
+    "keywords": ["python", "programming", "data science", "web development", "automation"],
+    "updatedAt": "2024-02-07",
+    "version": "2.1"
+  }
+}

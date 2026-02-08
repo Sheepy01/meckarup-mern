@@ -1,0 +1,159 @@
+{
+    "id": "course_002",
+    "slug": "r-for-data-science",
+    "title": "R for Data Science",
+    "tagline": "Transform data into insights -- Master statistical computing and visualization with R for impactful data analysis.",
+    "category": "Data Science & Analytics",
+    "difficulty": "Beginner to Intermediate",
+    "duration": "6 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 7999,
+      "offline": 11999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_002",
+    "icon": "FaRProject",
+    "overview": [
+      "This comprehensive course introduces you to R programming specifically for data science applications. You'll learn how to manipulate, analyze, and visualize data using R's powerful ecosystem of packages.",
+      "From basic statistics to advanced machine learning, the course covers everything needed to become proficient in data analysis. With real-world datasets and case studies, you'll gain practical experience solving actual business and research problems."
+    ],
+    "learningOutcomes": [
+      "Master R programming fundamentals and RStudio environment",
+      "Perform data manipulation using dplyr and tidyr packages",
+      "Create publication-quality visualizations with ggplot2",
+      "Conduct statistical analysis and hypothesis testing",
+      "Build predictive models using machine learning algorithms",
+      "Create interactive dashboards with Shiny",
+      "Work with time series data and forecasting",
+      "Document analysis using R Markdown for reproducible research"
+    ],
+    "curriculum": [
+      {
+        "title": "R Programming Basics",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Code",
+        "topics": [
+          "Introduction to R and RStudio",
+          "Data types, vectors, and matrices",
+          "Control structures and functions",
+          "Working with data frames"
+        ]
+      },
+      {
+        "title": "Data Manipulation",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "DataArray",
+        "topics": [
+          "Data import/export operations",
+          "Data cleaning with tidyr",
+          "Data transformation using dplyr",
+          "String manipulation and date handling"
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "AutoGraph",
+        "topics": [
+          "ggplot2 fundamentals",
+          "Customizing plots and themes",
+          "Advanced visualization techniques",
+          "Interactive plots with plotly"
+        ]
+      },
+      {
+        "title": "Statistical Analysis",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Calculate",
+        "topics": [
+          "Descriptive statistics and summaries",
+          "Hypothesis testing and confidence intervals",
+          "Regression analysis (linear, logistic)",
+          "ANOVA and experimental design"
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "TrendingUp",
+        "topics": [
+          "Time series analysis and forecasting",
+          "Machine learning with caret",
+          "Text mining and natural language processing",
+          "Web scraping with R"
+        ]
+      },
+      {
+        "title": "Project & Deployment",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "Engineering",
+        "topics": [
+          "Building Shiny applications",
+          "Creating R packages",
+          "Reproducible research with R Markdown",
+          "Capstone data analysis project"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Data Analysts",
+        "description": "Professionals working with data who want to master R for advanced analytics.",
+        "icon": "Analytics"
+      },
+      {
+        "title": "Researchers & Scholars",
+        "description": "Academic researchers, statisticians, and PhD scholars needing statistical analysis skills.",
+        "icon": "School"
+      },
+      {
+        "title": "Business Analysts",
+        "description": "Market researchers and business analysts looking to enhance their data analysis capabilities.",
+        "icon": "Business"
+      },
+      {
+        "title": "Data Professionals",
+        "description": "Anyone working with data who wants to learn R for statistical computing and visualization.",
+        "icon": "Work"
+      }
+    ],
+    "prerequisites": [
+      "Basic understanding of statistics",
+      "No prior R programming experience needed",
+      "Familiarity with data concepts is helpful",
+      "Computer with R and RStudio installed"
+    ],
+    "includedFeatures": [
+      "Real-world datasets and case studies",
+      "Interactive dashboard building",
+      "Reproducible research documentation",
+      "Certificate of completion",
+      "24/7 doubt support",
+      "Project portfolio"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "1st of every month",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 850,
+      "rating": 4.8,
+      "projects": 4,
+      "hours": 90
+    },
+    "meta": {
+      "keywords": ["r programming", "data science", "statistics", "visualization", "analytics"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

@@ -37,6 +37,17 @@ const CourseCatalog = () => {
     },
     {
       id: 3,
+      title: "Mechanical 3D Modeling & Design",
+      description: "Master parametric modeling, complex assemblies, and industrial design standards using industry-leading CAD software.",
+      category: "Mechanical Engineering",
+      difficulty: "Intermediate",
+      mode: "Online + Offline",
+      duration: "8 Weeks",
+      slug: "three-d-modelling",
+      tags: ["cad", "3d-modeling", "mechanical-design", "solid-mechanics"]
+    },
+    {
+      id: 4,
       title: 'Excel for Data Analysis',
       description: 'Advanced Excel formulas, pivot tables, data analysis, and business intelligence tools.',
       category: 'Data Science',
@@ -47,7 +58,7 @@ const CourseCatalog = () => {
       tags: ['data-science', 'excel', 'business-intelligence']
     },
     {
-      id: 4,
+      id: 5,
       title: 'SPSS Statistical Analysis',
       description: 'Professional statistical analysis, hypothesis testing, and research data processing.',
       category: 'Data Science',
@@ -58,7 +69,7 @@ const CourseCatalog = () => {
       tags: ['data-science', 'spss', 'research']
     },
     {
-      id: 5,
+      id: 6,
       title: 'LaTeX for Academic Writing',
       description: 'Professional document preparation for research papers, theses, and academic publications.',
       category: 'Research Tools',
@@ -69,7 +80,7 @@ const CourseCatalog = () => {
       tags: ['research-tools', 'latex', 'academic']
     },
     {
-      id: 6,
+      id: 7,
       title: 'Data Engineering',
       description: 'ETL pipelines, big data processing, cloud data solutions, and database management.',
       category: 'Data Science',
@@ -80,7 +91,7 @@ const CourseCatalog = () => {
       tags: ['data-science', 'engineering', 'big-data']
     },
     {
-      id: 7,
+      id: 8,
       title: 'Java Programming',
       description: 'Object-oriented programming, enterprise application development, and Spring framework.',
       category: 'Programming',
@@ -91,7 +102,7 @@ const CourseCatalog = () => {
       tags: ['programming', 'java', 'enterprise']
     },
     {
-      id: 8,
+      id: 9,
       title: 'C Programming',
       description: 'Core programming concepts, system programming, and embedded systems development.',
       category: 'Programming',
@@ -102,7 +113,7 @@ const CourseCatalog = () => {
       tags: ['programming', 'c', 'systems']
     },
     {
-      id: 9,
+      id: 10,
       title: 'Digital Image Processing with MATLAB',
       description: 'Image analysis, computer vision, and signal processing using MATLAB tools and libraries.',
       category: 'Engineering',
@@ -113,7 +124,7 @@ const CourseCatalog = () => {
       tags: ['engineering', 'matlab', 'image-processing']
     },
     {
-      id: 10,
+      id: 11,
       title: 'Geospatial Analysis using R/GIS',
       description: 'Spatial data analysis, mapping, and GIS applications for environmental and urban planning.',
       category: 'Data Science',

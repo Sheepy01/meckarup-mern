@@ -1,0 +1,159 @@
+{
+    "id": "course_010",
+    "slug": "geospatial-analysis-using-r-and-gis",
+    "title": "Geospatial Analysis using R and GIS",
+    "tagline": "Map, analyze, and visualize spatial data -- Master geospatial analysis for environmental studies, urban planning, and location intelligence.",
+    "category": "Geospatial & Environmental",
+    "difficulty": "Intermediate",
+    "duration": "8 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 11999,
+      "offline": 16999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_010",
+    "icon": "FaMap",
+    "overview": [
+      "This comprehensive course combines R programming with GIS tools (ArcGIS/QGIS) for spatial data analysis. You'll learn to process, analyze, and visualize geospatial data for applications in environmental science, urban planning, agriculture, and business intelligence.",
+      "The course covers spatial statistics, remote sensing data processing, map creation, and spatial modeling. Through real-world datasets and projects, you'll gain practical skills in solving spatial problems."
+    ],
+    "learningOutcomes": [
+      "Process and manipulate spatial data using R and GIS tools",
+      "Create professional maps and spatial visualizations",
+      "Perform spatial statistics and interpolation",
+      "Analyze remote sensing and satellite imagery",
+      "Work with vector and raster data formats",
+      "Implement geospatial analysis workflows",
+      "Build spatial models and predictions",
+      "Create interactive web maps and dashboards"
+    ],
+    "curriculum": [
+      {
+        "title": "GIS Fundamentals",
+        "duration": "1.5 Weeks",
+        "lessons": 6,
+        "icon": "Map",
+        "topics": [
+          "Introduction to GIS concepts",
+          "QGIS/ArcGIS interface and tools",
+          "Coordinate systems and projections",
+          "Basic map creation and styling"
+        ]
+      },
+      {
+        "title": "R for Spatial Analysis",
+        "duration": "1.5 Weeks",
+        "lessons": 6,
+        "icon": "Code",
+        "topics": [
+          "Spatial data structures in R",
+          "Reading and writing spatial data",
+          "Basic spatial operations",
+          "Coordinate reference systems in R"
+        ]
+      },
+      {
+        "title": "Spatial Data Visualization",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "AutoGraph",
+        "topics": [
+          "Thematic mapping techniques",
+          "Advanced map customization",
+          "Interactive maps with leaflet",
+          "Map layout and composition"
+        ]
+      },
+      {
+        "title": "Spatial Statistics",
+        "duration": "1.5 Weeks",
+        "lessons": 6,
+        "icon": "Calculate",
+        "topics": [
+          "Point pattern analysis",
+          "Spatial autocorrelation",
+          "Interpolation techniques (Kriging, IDW)",
+          "Spatial regression analysis"
+        ]
+      },
+      {
+        "title": "Remote Sensing Analysis",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Satellite",
+        "topics": [
+          "Satellite imagery processing",
+          "Land use/land cover classification",
+          "Vegetation indices calculation",
+          "Change detection analysis"
+        ]
+      },
+      {
+        "title": "Advanced Applications",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "Engineering",
+        "topics": [
+          "Network analysis and routing",
+          "Hydrological modeling",
+          "Habitat suitability analysis",
+          "Complete geospatial project"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Environmental Scientists",
+        "description": "Professionals analyzing environmental and ecological data.",
+        "icon": "Nature"
+      },
+      {
+        "title": "Urban Planners",
+        "description": "Planners working on city development and spatial planning.",
+        "icon": "LocationCity"
+      },
+      {
+        "title": "Geographers",
+        "description": "Geography professionals and researchers.",
+        "icon": "Public"
+      },
+      {
+        "title": "Remote Sensing Analysts",
+        "description": "Analysts working with satellite and aerial imagery.",
+        "icon": "SatelliteAlt"
+      }
+    ],
+    "prerequisites": [
+      "Basic understanding of geography/earth sciences",
+      "No prior GIS experience required",
+      "Familiarity with basic statistics helpful",
+      "Computer with QGIS and R installed"
+    ],
+    "includedFeatures": [
+      "Real spatial datasets",
+      "GIS software training",
+      "Interactive map creation",
+      "Certificate of completion",
+      "Remote sensing analysis",
+      "Spatial modeling projects"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Bimonthly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 350,
+      "rating": 4.8,
+      "projects": 3,
+      "hours": 120
+    },
+    "meta": {
+      "keywords": ["gis", "geospatial", "r programming", "remote sensing", "spatial analysis", "qgis"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

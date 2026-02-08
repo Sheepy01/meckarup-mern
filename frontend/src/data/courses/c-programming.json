@@ -1,0 +1,159 @@
+{
+    "id": "course_008",
+    "slug": "c-programming",
+    "title": "C Programming",
+    "tagline": "Master the foundation of programming -- Learn C for system programming, embedded systems, and performance-critical applications.",
+    "category": "Programming & Development",
+    "difficulty": "Beginner to Intermediate",
+    "duration": "6 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 6999,
+      "offline": 9999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_008",
+    "icon": "FaCuttlefish",
+    "overview": [
+      "This course provides a solid foundation in C programming, the language that powers operating systems, embedded devices, and performance-critical applications.",
+      "You'll learn fundamental programming concepts, memory management, pointers, and data structures. The course emphasizes low-level understanding and system programming, preparing you for careers in embedded systems, operating systems, and high-performance computing."
+    ],
+    "learningOutcomes": [
+      "Master C programming fundamentals and syntax",
+      "Understand and implement pointers and memory management",
+      "Work with arrays, strings, and structures",
+      "Implement common data structures (linked lists, stacks, queues)",
+      "Handle file operations and I/O streams",
+      "Understand preprocessor directives and macros",
+      "Debug C programs effectively",
+      "Write efficient and optimized C code"
+    ],
+    "curriculum": [
+      {
+        "title": "C Fundamentals",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Code",
+        "topics": [
+          "Introduction to C and development environment",
+          "Variables, data types, and operators",
+          "Control structures and loops",
+          "Functions and scope"
+        ]
+      },
+      {
+        "title": "Arrays & Strings",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "DataArray",
+        "topics": [
+          "One-dimensional and multi-dimensional arrays",
+          "String manipulation functions",
+          "Character arrays and operations",
+          "Array algorithms and searching"
+        ]
+      },
+      {
+        "title": "Pointers & Memory",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Memory",
+        "topics": [
+          "Pointer fundamentals and operations",
+          "Dynamic memory allocation",
+          "Pointer arithmetic",
+          "Pointers to functions"
+        ]
+      },
+      {
+        "title": "Structures & Unions",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "AccountTree",
+        "topics": [
+          "Structure definition and usage",
+          "Nested structures and arrays of structures",
+          "Unions and their applications",
+          "Typedef and enum"
+        ]
+      },
+      {
+        "title": "File Handling",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Description",
+        "topics": [
+          "File operations and modes",
+          "Reading and writing files",
+          "Binary file operations",
+          "File positioning and error handling"
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "Settings",
+        "topics": [
+          "Preprocessor directives",
+          "Command-line arguments",
+          "Memory management best practices",
+          "Complete project implementation"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "CS Students",
+        "description": "Computer science students learning foundational programming concepts.",
+        "icon": "School"
+      },
+      {
+        "title": "Embedded Systems Engineers",
+        "description": "Engineers working with microcontrollers and embedded devices.",
+        "icon": "SettingsInputComponent"
+      },
+      {
+        "title": "System Programmers",
+        "description": "Developers working on operating systems and system software.",
+        "icon": "Computer"
+      },
+      {
+        "title": "Electronics Engineers",
+        "description": "Engineers programming hardware and low-level systems.",
+        "icon": "ElectricalServices"
+      }
+    ],
+    "prerequisites": [
+      "Basic computer knowledge",
+      "No prior programming experience required",
+      "Logical thinking and attention to detail",
+      "Computer with C compiler installed"
+    ],
+    "includedFeatures": [
+      "Low-level programming projects",
+      "Memory management exercises",
+      "Data structure implementations",
+      "Certificate of completion",
+      "Debugging practice sessions",
+      "Optimization techniques"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English (Hindi support available)",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Monthly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 1100,
+      "rating": 4.6,
+      "projects": 3,
+      "hours": 90
+    },
+    "meta": {
+      "keywords": ["c programming", "system programming", "embedded systems", "pointers", "data structures"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+}

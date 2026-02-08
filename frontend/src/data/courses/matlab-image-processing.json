@@ -1,0 +1,159 @@
+{
+    "id": "course_009",
+    "slug": "digital-image-processing-with-matlab",
+    "title": "Digital Image Processing with MATLAB",
+    "tagline": "Transform pixels into insights -- Master image analysis, computer vision, and signal processing using MATLAB's powerful toolkit.",
+    "category": "Engineering & Research",
+    "difficulty": "Intermediate",
+    "duration": "8 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 9999,
+      "offline": 14999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_009",
+    "icon": "FaImage",
+    "overview": [
+      "This course provides comprehensive training in digital image processing using MATLAB. You'll learn fundamental image processing techniques, enhancement methods, segmentation algorithms, and feature extraction.",
+      "The course emphasizes practical applications in medical imaging, remote sensing, computer vision, and industrial inspection. Through hands-on projects, you'll gain experience processing real images and solving practical problems using MATLAB's extensive image processing toolbox."
+    ],
+    "learningOutcomes": [
+      "Master MATLAB programming for image processing",
+      "Implement image enhancement and restoration techniques",
+      "Perform image segmentation and object detection",
+      "Extract features and perform pattern recognition",
+      "Work with color image processing",
+      "Implement morphological operations",
+      "Apply frequency domain processing techniques",
+      "Develop complete image processing applications"
+    ],
+    "curriculum": [
+      {
+        "title": "MATLAB Fundamentals",
+        "duration": "1.5 Weeks",
+        "lessons": 6,
+        "icon": "Code",
+        "topics": [
+          "MATLAB interface and basic operations",
+          "Matrix operations and indexing",
+          "Programming in MATLAB",
+          "Image representation and display"
+        ]
+      },
+      {
+        "title": "Image Enhancement",
+        "duration": "1.5 Weeks",
+        "lessons": 6,
+        "icon": "Enhancement",
+        "topics": [
+          "Intensity transformations",
+          "Histogram processing",
+          "Spatial filtering techniques",
+          "Noise reduction methods"
+        ]
+      },
+      {
+        "title": "Color Image Processing",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Palette",
+        "topics": [
+          "Color models and conversions",
+          "Color image processing techniques",
+          "Pseudocoloring and full-color processing",
+          "Color-based segmentation"
+        ]
+      },
+      {
+        "title": "Image Segmentation",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "Crop",
+        "topics": [
+          "Edge detection techniques",
+          "Thresholding methods",
+          "Region-based segmentation",
+          "Watershed segmentation"
+        ]
+      },
+      {
+        "title": "Feature Extraction",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "FindInPage",
+        "topics": [
+          "Morphological operations",
+          "Feature detection and extraction",
+          "Pattern recognition basics",
+          "Object recognition techniques"
+        ]
+      },
+      {
+        "title": "Advanced Applications",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "SettingsApplications",
+        "topics": [
+          "Frequency domain processing",
+          "Image compression basics",
+          "3D image processing",
+          "Complete project implementation"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Engineering Students",
+        "description": "Students in electronics, computer, and biomedical engineering.",
+        "icon": "Engineering"
+      },
+      {
+        "title": "Medical Imaging Professionals",
+        "description": "Professionals working with medical images and diagnostics.",
+        "icon": "MedicalServices"
+      },
+      {
+        "title": "Remote Sensing Analysts",
+        "description": "Analysts processing satellite and aerial imagery.",
+        "icon": "Satellite"
+      },
+      {
+        "title": "Computer Vision Enthusiasts",
+        "description": "Individuals interested in image analysis and computer vision.",
+        "icon": "Visibility"
+      }
+    ],
+    "prerequisites": [
+      "Basic mathematics knowledge",
+      "No prior MATLAB experience required",
+      "Understanding of basic programming concepts helpful",
+      "Computer with MATLAB installed"
+    ],
+    "includedFeatures": [
+      "Real image datasets",
+      "Image processing toolbox training",
+      "Practical image analysis projects",
+      "Certificate of completion",
+      "MATLAB scripts and functions",
+      "Application case studies"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Monthly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 400,
+      "rating": 4.7,
+      "projects": 3,
+      "hours": 120
+    },
+    "meta": {
+      "keywords": ["matlab", "image processing", "computer vision", "medical imaging", "digital images"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

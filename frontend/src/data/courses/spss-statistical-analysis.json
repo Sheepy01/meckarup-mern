@@ -1,0 +1,159 @@
+{
+    "id": "course_004",
+    "slug": "spss-statistical-analysis",
+    "title": "SPSS Statistical Analysis",
+    "tagline": "Master statistical analysis with SPSS -- From data entry to advanced multivariate analysis for research and business.",
+    "category": "Research & Analytics",
+    "difficulty": "Intermediate",
+    "duration": "5 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 6999,
+      "offline": 9999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_004",
+    "icon": "FaChartBar",
+    "overview": [
+      "This professional course provides comprehensive training in SPSS for statistical analysis. You'll learn to manage data, perform descriptive statistics, hypothesis testing, and advanced multivariate analysis.",
+      "The course emphasizes practical application using real research datasets, ensuring you can conduct independent statistical analysis for academic research, market studies, or business intelligence. You'll gain confidence in interpreting results and presenting findings professionally."
+    ],
+    "learningOutcomes": [
+      "Master SPSS interface, data entry, and management techniques",
+      "Perform descriptive statistics and data exploration",
+      "Conduct hypothesis testing (t-tests, chi-square, ANOVA)",
+      "Execute correlation and regression analysis",
+      "Perform factor analysis and reliability testing",
+      "Create publication-quality tables and charts",
+      "Write syntax for reproducible analysis",
+      "Interpret and report statistical results effectively"
+    ],
+    "curriculum": [
+      {
+        "title": "SPSS Fundamentals",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Settings",
+        "topics": [
+          "SPSS interface and navigation",
+          "Data entry and variable definition",
+          "Data import from various sources",
+          "Basic data management techniques"
+        ]
+      },
+      {
+        "title": "Descriptive Statistics",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "Analytics",
+        "topics": [
+          "Frequency distributions and measures",
+          "Cross-tabulations and chi-square",
+          "Graphs and charts creation",
+          "Data exploration techniques"
+        ]
+      },
+      {
+        "title": "Inferential Statistics",
+        "duration": "1 Week",
+        "lessons": 6,
+        "icon": "Calculate",
+        "topics": [
+          "Parametric tests (t-tests, ANOVA)",
+          "Non-parametric tests",
+          "Post-hoc analysis and comparisons",
+          "Assumption testing and validation"
+        ]
+      },
+      {
+        "title": "Correlation & Regression",
+        "duration": "1 Week",
+        "lessons": 5,
+        "icon": "TrendingUp",
+        "topics": [
+          "Correlation analysis",
+          "Simple and multiple linear regression",
+          "Logistic regression for categorical outcomes",
+          "Model diagnostics and validation"
+        ]
+      },
+      {
+        "title": "Advanced Analysis",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Psychology",
+        "topics": [
+          "Factor analysis and principal components",
+          "Reliability analysis (Cronbach's alpha)",
+          "Cluster analysis techniques",
+          "Multidimensional scaling"
+        ]
+      },
+      {
+        "title": "Reporting & Automation",
+        "duration": "0.5 Weeks",
+        "lessons": 4,
+        "icon": "Description",
+        "topics": [
+          "Creating publication-quality output",
+          "SPSS syntax programming",
+          "Macros and automation",
+          "Research project with complete analysis"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "Research Scholars",
+        "description": "PhD students and academic researchers requiring statistical analysis for their research.",
+        "icon": "School"
+      },
+      {
+        "title": "Market Researchers",
+        "description": "Professionals conducting market studies and consumer research.",
+        "icon": "Business"
+      },
+      {
+        "title": "Social Scientists",
+        "description": "Researchers in psychology, sociology, and other social sciences.",
+        "icon": "People"
+      },
+      {
+        "title": "Healthcare Researchers",
+        "description": "Medical and healthcare professionals conducting clinical research.",
+        "icon": "MedicalServices"
+      }
+    ],
+    "prerequisites": [
+      "Basic understanding of statistics",
+      "Familiarity with research methodology is helpful",
+      "Computer with SPSS installed",
+      "Interest in data analysis"
+    ],
+    "includedFeatures": [
+      "Real research datasets",
+      "Publication-quality output templates",
+      "SPSS syntax scripts",
+      "Certificate of completion",
+      "Statistical analysis templates",
+      "Research project guidance"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "1st and 15th of every month",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 750,
+      "rating": 4.8,
+      "projects": 3,
+      "hours": 75
+    },
+    "meta": {
+      "keywords": ["spss", "statistical analysis", "research", "data analysis", "statistics"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }

@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, ScrollRestoration } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 // Import all components
 import NavigationBar from './components/NavigationBar/NavigationBar';
-import HomePage from './pages/HomePage'; // We'll create this
-// import CourseCatalog from './pages/CourseCatalog/CourseCatalog';
-// import ServicesPage from './pages/ServicesPage'; // We'll create this
-// import AboutPage from './pages/AboutPage'; // We'll create this
-// import ContactPage from './pages/ContactPage'; // We'll create this
-// import NotFoundPage from './pages/NotFoundPage'; // We'll create this
+import HomePage from './pages/HomePage';
+import CourseDetail from './pages/CourseDetail';
+import SoftwareDevelopment from './components/DetailedServicesSection/SoftwareDevelopment';
+import DetailedServicesPage from './components/DetailedServicesSection/DetailedServicesPage';
+import AppDevelopment from './components/DetailedServicesSection/AppDevelopment';
+import ThreeDModelling from './components/DetailedServicesSection/ThreeDModelling';
 
 const theme = createTheme({
   typography: {
@@ -57,6 +57,13 @@ function App() {
         <Routes>
           {/* Home Page */}
           <Route path="/" element={<HomePage />} />
+          <Route path="/courses/:courseSlug" element={<CourseDetail />} />
+          <Route path="/services" element={<DetailedServicesPage />} />
+          <Route path="/services/software-development" element={<SoftwareDevelopment />} />
+          <Route path="/services/app-development" element={<AppDevelopment />} />
+          <Route path="/services/3d-modelling" element={<ThreeDModelling />} />
+          {/* <Route path="/services/research" element={<ResearchServices />} /> */}
+          {/* <Route path="/courses/:courseId" element={<CourseDetail />} /> */}
           
           {/* Course Catalog Page */}
           {/* <Route path="/courses" element={<CourseCatalog />} /> */}

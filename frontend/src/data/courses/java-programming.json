@@ -1,0 +1,159 @@
+{
+    "id": "course_007",
+    "slug": "java-programming",
+    "title": "Java Programming",
+    "tagline": "Master enterprise Java development -- Build scalable applications with Java, Spring Framework, and modern development practices.",
+    "category": "Programming & Development",
+    "difficulty": "Beginner to Advanced",
+    "duration": "10 Weeks",
+    "mode": ["Online", "Offline"],
+    "price": {
+      "online": 12999,
+      "offline": 17999,
+      "currency": "INR"
+    },
+    "instructorId": "instructor_007",
+    "icon": "FaJava",
+    "overview": [
+      "This comprehensive Java course takes you from fundamental programming concepts to enterprise application development. You'll learn core Java, object-oriented principles, data structures, and advance to building web applications using Spring Framework.",
+      "The course emphasizes clean code practices, testing, and real-world application development. Through multiple projects, you'll build a portfolio demonstrating your ability to create robust, scalable Java applications."
+    ],
+    "learningOutcomes": [
+      "Master Java syntax, data types, and control structures",
+      "Implement Object-Oriented Programming concepts effectively",
+      "Work with Java collections framework and data structures",
+      "Handle exceptions and implement error handling strategies",
+      "Develop multithreaded applications",
+      "Build web applications using Spring Framework",
+      "Work with databases using JDBC and JPA",
+      "Implement RESTful APIs and web services"
+    ],
+    "curriculum": [
+      {
+        "title": "Java Fundamentals",
+        "duration": "2 Weeks",
+        "lessons": 8,
+        "icon": "Code",
+        "topics": [
+          "Java installation and IDE setup",
+          "Variables, data types, and operators",
+          "Control flow and methods",
+          "Arrays and strings"
+        ]
+      },
+      {
+        "title": "Object-Oriented Programming",
+        "duration": "2 Weeks",
+        "lessons": 7,
+        "icon": "DataObject",
+        "topics": [
+          "Classes and objects",
+          "Inheritance and polymorphism",
+          "Interfaces and abstract classes",
+          "Packages and access modifiers"
+        ]
+      },
+      {
+        "title": "Advanced Java Concepts",
+        "duration": "2 Weeks",
+        "lessons": 6,
+        "icon": "Settings",
+        "topics": [
+          "Exception handling",
+          "Collections framework",
+          "Generics and type safety",
+          "File I/O operations"
+        ]
+      },
+      {
+        "title": "Multithreading & Networking",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "DeviceHub",
+        "topics": [
+          "Thread creation and management",
+          "Synchronization and concurrency",
+          "Network programming basics",
+          "Socket programming"
+        ]
+      },
+      {
+        "title": "Database Connectivity",
+        "duration": "1.5 Weeks",
+        "lessons": 5,
+        "icon": "Storage",
+        "topics": [
+          "JDBC fundamentals",
+          "Database operations with Java",
+          "Connection pooling",
+          "Introduction to JPA"
+        ]
+      },
+      {
+        "title": "Spring Framework & Projects",
+        "duration": "1 Week",
+        "lessons": 4,
+        "icon": "Spring",
+        "topics": [
+          "Spring Framework introduction",
+          "Building web applications",
+          "REST API development",
+          "Complete project implementation"
+        ]
+      }
+    ],
+    "targetAudience": [
+      {
+        "title": "CS Students",
+        "description": "Computer science students learning enterprise Java development.",
+        "icon": "School"
+      },
+      {
+        "title": "Software Developers",
+        "description": "Developers looking to master Java and Spring Framework.",
+        "icon": "Code"
+      },
+      {
+        "title": "Backend Developers",
+        "description": "Professionals building scalable backend systems and APIs.",
+        "icon": "Storage"
+      },
+      {
+        "title": "Android Developers",
+        "description": "Developers expanding into enterprise Java for backend services.",
+        "icon": "Android"
+      }
+    ],
+    "prerequisites": [
+      "Basic programming concepts",
+      "No prior Java experience required",
+      "Logical thinking and problem-solving skills",
+      "Computer with Java and IDE installed"
+    ],
+    "includedFeatures": [
+      "Enterprise application projects",
+      "Spring Framework training",
+      "Database integration projects",
+      "Certificate of completion",
+      "Placement assistance",
+      "Code review sessions"
+    ],
+    "details": {
+      "certificate": "Yes (Industry recognized)",
+      "language": "English",
+      "location": "Patna, Bihar for offline classes",
+      "batchStart": "Monthly batches available",
+      "support": "24/7 via chat and email"
+    },
+    "stats": {
+      "studentsTrained": 900,
+      "rating": 4.7,
+      "projects": 4,
+      "hours": 150
+    },
+    "meta": {
+      "keywords": ["java", "spring framework", "enterprise development", "backend", "web applications"],
+      "updatedAt": "2024-02-07",
+      "version": "2.0"
+    }
+  }
