@@ -1,13 +1,16 @@
 import React from 'react';
-import NavigationBar from './components/NavigationBar/NavigationBar';
-import HeroSection from './components/HeroSection/HeroSection';
-import ServicesSection from './components/ServicesSection/ServicesSection';
-import PopularCourses from './components/PopularCourses/PopularCourses';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import WhyChooseUs from './components/WhyChooseUs';
-import Testimonials from './components/Testimonials';
-import CTABanner from './components/CTABanner';
+
+// Import all components
+import NavigationBar from './components/NavigationBar/NavigationBar';
+import HomePage from './pages/HomePage'; // We'll create this
+// import CourseCatalog from './pages/CourseCatalog/CourseCatalog';
+// import ServicesPage from './pages/ServicesPage'; // We'll create this
+// import AboutPage from './pages/AboutPage'; // We'll create this
+// import ContactPage from './pages/ContactPage'; // We'll create this
+// import NotFoundPage from './pages/NotFoundPage'; // We'll create this
 
 const theme = createTheme({
   typography: {
@@ -48,17 +51,32 @@ function App() {
         }
       `}</style>
       
-      <NavigationBar />
-      <HeroSection />
-      <ServicesSection />
-      <PopularCourses />
-      <WhyChooseUs />
-      <Testimonials />
-      <CTABanner />
-      
-      <div style={{ paddingTop: '70px' }}>
-        {/* Additional sections can go here */}
-      </div>
+      <Router>
+        <NavigationBar />
+        
+        <Routes>
+          {/* Home Page */}
+          <Route path="/" element={<HomePage />} />
+          
+          {/* Course Catalog Page */}
+          {/* <Route path="/courses" element={<CourseCatalog />} /> */}
+          
+          {/* Services Page */}
+          {/* <Route path="/services" element={<ServicesPage />} /> */}
+          
+          {/* About Page */}
+          {/* <Route path="/about" element={<AboutPage />} /> */}
+          
+          {/* Contact Page */}
+          {/* <Route path="/contact" element={<ContactPage />} /> */}
+          
+          {/* Course Details Page (Optional) */}
+          {/* <Route path="/courses/:courseId" element={<CourseCatalog />} /> */}
+          
+          {/* 404 Page */}
+          {/* <Route path="*" element={<NotFoundPage />} /> */}
+        </Routes>
+      </Router>
     </ThemeProvider>
   );
 }
