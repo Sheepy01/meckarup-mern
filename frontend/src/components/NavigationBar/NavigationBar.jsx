@@ -3,6 +3,7 @@ import { KeyboardArrowDown, ArrowForward, Menu } from '@mui/icons-material';
 import styles from './NavigationBar.module.css';
 import MegaMenu from './MegaMenu';
 import MobileMenu from './MobileMenu';
+import logo from './logo/meckarup_logo.png';
 
 const NavigationBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -62,9 +63,8 @@ const NavigationBar = () => {
         <div className={styles.navContainer}>
           {/* Logo */}
           <a href="/" className={styles.logoContainer}>
-            <div className={styles.logoIcon}>M</div>
+            <img src={logo} alt="Meckarup Logo" className={styles.logoIcon} />
             <span className={styles.logoText}>Meckarup</span>
-            <span className={styles.logoTagline}>Tech Education & Solutions</span>
           </a>
 
           {/* Desktop Menu */}
@@ -103,12 +103,6 @@ const NavigationBar = () => {
               ))}
             </ul>
 
-            {/* Desktop CTA Button */}
-            <a href="/enroll" className={styles.ctaButton}>
-              Enroll Now
-              <ArrowForward fontSize="small" />
-            </a>
-          </div>
 
           {/* Mobile Menu Toggle */}
           <button 
@@ -123,10 +117,16 @@ const NavigationBar = () => {
           </button>
 
           {/* Mobile CTA Button */}
-          <a href="/enroll" className={`${styles.ctaButton} ${styles.mobileCta}`}>
+          {/* <a href="/enroll" className={`${styles.ctaButton} ${styles.mobileCta}`}>
             Enroll
-          </a>
+          </a> */}
         </div>
+        {/* Desktop CTA Button */}
+        <a href="/enroll" className={styles.ctaButton}>
+          Enroll Now
+          <ArrowForward fontSize="small" />
+        </a>
+      </div>
       </nav>
 
       {/* Mobile Menu Component */}

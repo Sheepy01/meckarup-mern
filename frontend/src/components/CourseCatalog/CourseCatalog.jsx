@@ -177,7 +177,7 @@ const CourseCatalog = () => {
 
   return (
     <div className={styles.courseCatalog}>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       
       <div className={styles.container}>
         {/* Page Header */}
