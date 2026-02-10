@@ -1,0 +1,53 @@
+/* Footer.module.css */
+.footer {
+  background: #1A365D;
+  color: white;
+}
+
+.footerLinks {
+  color: #93C5FD;
+  transition: color 0.3s ease;
+}
+
+.footerLinks:hover {
+  color: white;
+}
+
+.socialIcon {
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .companyInfo {
+    text-align: center;
+  }
+  
+  .logoContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .bottomBar {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

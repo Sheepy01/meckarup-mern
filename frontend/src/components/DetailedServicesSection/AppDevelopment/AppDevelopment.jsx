@@ -203,7 +203,7 @@ const AppDevelopment = () => {
 };
 
   return (
-    <div style={{ paddingTop: '70px', background: '#F9FAFB', minHeight: '100vh' }}>
+    <div style={{ background: '#F9FAFB', minHeight: '100vh' }}>
       {/* Hero Section */}
       <section style={{ 
         background: 'linear-gradient(135deg, #1A365D 0%, #2D4A7A 100%)',
@@ -221,6 +221,7 @@ const AppDevelopment = () => {
         }}>
           <div data-aos="fade-up">
             <h1 style={{ 
+              paddingTop: '3rem',
               fontSize: '3.5rem',
               fontWeight: 800,
               marginBottom: '1rem',

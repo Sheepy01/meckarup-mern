@@ -1,14 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { KeyboardArrowDown, ArrowForward, Menu } from '@mui/icons-material';
 import styles from './NavigationBar.module.css';
 import MegaMenu from './MegaMenu';
 import MobileMenu from './MobileMenu';
 import logo from './logo/meckarup_logo.png';
+import logoText from './logo/meckarup_text.png';
 
 const NavigationBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activePage, setActivePage] = useState('home');
+  const [isFixed, setIsFixed] = useState(true);
+  const navRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +25,43 @@ const NavigationBar = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Toggle navbar between fixed and absolute so it scrolls away with ServicesSection
+  useEffect(() => {
+    const navEl = navRef.current;
+    const servicesEl = document.getElementById('services-section');
+    if (!navEl || !servicesEl) return;
+
+    const navHeight = navEl.offsetHeight || 70;
+
+    const calcThreshold = () => {
+      const rect = servicesEl.getBoundingClientRect();
+      const servicesTop = rect.top + window.scrollY;
+      return servicesTop - navHeight;
+    };
+
+    let threshold = calcThreshold();
+
+    const handleResize = () => {
+      threshold = calcThreshold();
+      // re-evaluate on resize
+      setIsFixed(window.scrollY < threshold);
+    };
+
+    const checkFixed = () => {
+      setIsFixed(window.scrollY < threshold);
+    };
+
+    window.addEventListener('scroll', checkFixed);
+    window.addEventListener('resize', handleResize);
+    // initial check
+    checkFixed();
+
+    return () => {
+      window.removeEventListener('scroll', checkFixed);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const menuItems = [
@@ -59,12 +99,12 @@ const NavigationBar = () => {
 
   return (
     <>
-      <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
+      <nav ref={navRef} className={`${styles.navbar} ${!isFixed ? styles.unfixed : ''} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.navContainer}>
           {/* Logo */}
           <a href="/" className={styles.logoContainer}>
             <img src={logo} alt="Meckarup Logo" className={styles.logoIcon} />
-            <span className={styles.logoText}>Meckarup</span>
+            <img src={logoText} alt="Meckarup Text" className={styles.logoText} />
           </a>
 
           {/* Desktop Menu */}
@@ -102,7 +142,6 @@ const NavigationBar = () => {
                 </li>
               ))}
             </ul>
-
 
           {/* Mobile Menu Toggle */}
           <button 

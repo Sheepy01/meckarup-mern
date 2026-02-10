@@ -7,23 +7,24 @@ import Testimonials from '../components/Testimonials/Testimonials';
 import CTABanner from '../components/CTABanner/CTABanner';
 import CourseCatalog from '../components/CourseCatalog';
 import DetailedServicesPage from '../components/DetailedServicesSection/DetailedServicesPage';
+import Footer from '../components/Footer/Footer';
+import OurTeam from '../components/OurTeam';
 
 const HomePage = () => {
   return (
     <div>
       <HeroSection />
-      <ServicesSection />
+      <div id="services-section">
+        <ServicesSection />
+      </div>
+      <DetailedServicesPage />
       <CourseCatalog />
       <PopularCourses />
-      <DetailedServicesPage />
       <WhyChooseUs />
       <Testimonials />
+      <OurTeam />
       <CTABanner />
-      
-      {/* Add padding to prevent content from hiding behind fixed navbar */}
-      <div style={{ paddingTop: '70px' }}>
-        {/* You can add more sections here if needed */}
-      </div>
+      <Footer />
     </div>
   );
 };
