@@ -188,26 +188,6 @@ const CourseCatalog = () => {
           <p className={styles.pageSubtitle}>
             Hands-on training for students and professionals – available online and in-person
           </p>
-          
-          {/* Stats Bar */}
-          <div className={styles.statsBar}>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>50+</div>
-              <div className={styles.statLabel}>Total Courses</div>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>1,250+</div>
-              <div className={styles.statLabel}>Students Trained</div>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>8+</div>
-              <div className={styles.statLabel}>Years Experience</div>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>24/7</div>
-              <div className={styles.statLabel}>Learning Support</div>
-            </div>
-          </div>
         </header>
 
         {/* Filter Bar */}

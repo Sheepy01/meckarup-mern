@@ -15,6 +15,7 @@
 
 /* ===== BANNER SECTION ===== */
 .ctaBanner {
+  margin-top: 6rem;
   padding: 6rem 1.5rem;
   background: linear-gradient(135deg, 
     var(--primary-dark) 0%, 

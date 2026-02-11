@@ -156,16 +156,6 @@ const EnrollmentCTA = () => {
           }}>
             Start Your Python Journey Today!
           </Typography>
-          <Typography sx={{ 
-            fontSize: { xs: '1rem', md: '1.125rem' },
-            opacity: 0.9,
-            maxWidth: '700px',
-            mx: 'auto',
-            lineHeight: 1.6
-          }}>
-            Join 500+ successful students who transformed their careers with our Python Programming course. 
-            Next batch starts on <strong>March 15, 2024</strong>.
-          </Typography>
         </Box>
         
         <Grid container spacing={4}>
@@ -216,7 +206,7 @@ const EnrollmentCTA = () => {
                   sx={{
                     '& .MuiOutlinedInput-root': {
                       background: 'white',
-                      borderRadius: '8px'
+                      borderRadius: '8px',
                     }
                   }}
                 />
@@ -340,7 +330,7 @@ const EnrollmentCTA = () => {
                       <Typography sx={{ fontWeight: 700, fontSize: '1rem' }}>
                         {info.title}
                       </Typography>
-                      <Typography sx={{ fontWeight: 600, fontSize: '0.95rem' }}>
+                      <Typography sx={{ fontWeight: 500, fontSize: '0.7rem' }}>
                         {info.details}
                       </Typography>
                       <Typography sx={{ fontSize: '0.8rem', opacity: 0.8 }}>

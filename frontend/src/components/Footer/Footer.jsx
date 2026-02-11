@@ -10,6 +10,8 @@ import {
   YouTube,
   Instagram
 } from '@mui/icons-material';
+import logo from '../NavigationBar/logo/meckarup_logo.png';
+import logoText from '../NavigationBar/logo/meckarup_text.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,7 +39,7 @@ const Footer = () => {
   return (
     <footer style={{ background: '#1A365D', color: 'white' }}>
       {/* Main Footer Content */}
-      <div style={{ padding: '4rem 0 2rem' }}>
+      <div style={{ padding: '4rem 0 2rem', marginTop: '8rem' }}>
         <div style={{ 
           maxWidth: '1200px', 
           margin: '0 auto', 
@@ -52,39 +54,25 @@ const Footer = () => {
             <div style={{ 
               display: 'flex', 
               alignItems: 'center', 
-              gap: '0.75rem',
+              gap: '1rem',
               marginBottom: '1.5rem' 
             }}>
-              <div style={{
+              <img src={logo} alt="Meckarup Logo" style={{
                 width: '40px',
                 height: '40px',
-                background: '#10b96a',
-                borderRadius: '8px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontWeight: '700',
-                fontSize: '1.25rem'
-              }}>
-                M
-              </div>
-              <div>
-                <div style={{ 
-                  fontSize: '1.5rem', 
-                  fontWeight: '700',
-                  lineHeight: '1.2'
-                }}>
-                  Meckarup
-                </div>
-                <div style={{ 
-                  fontSize: '0.8rem', 
-                  opacity: 0.8,
-                  marginTop: '0.25rem'
-                }}>
-                  Tech Education & Solutions
-                </div>
-              </div>
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed',
+                overflow: 'hidden',
+              }
+              } />
+              <img src={logoText} alt="" style={{
+                height: '32px',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed',
+                overflow: 'hidden',
+              }} />           
             </div>
 
             <p style={{ 

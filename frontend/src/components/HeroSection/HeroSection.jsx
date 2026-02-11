@@ -45,7 +45,7 @@ const HeroSection = () => {
             Your destination for science and technology
           </h1>
           <p className={styles.heroSubtitle}>
-            Custom software development, app development, and 3D modelling online & offline. 
+            Custom software development, app development, and 3D modelling. <br/> 
             Plus Professional training in Python, R, MATLAB, Java, Data Engineering and more.
           </p>
           <div className={styles.ctaButtons}>
